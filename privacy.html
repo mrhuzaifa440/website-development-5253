@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="{{language}}">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="author" content="" />
+    <title>{{meta_title}}</title>
+    <link rel="canonical" href="{{canonical_tag_href}}" />
+
+    <meta name="description"
+          content="{{meta_description}}"/>
+    <link rel="icon" href="{{favicon}}" type="image/x-icon" />
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="home/css/quill.core.css" rel="stylesheet" />
+    <link href="article/css/styles.css" rel="stylesheet" />
+    {{tags_scripts_content}}
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
+
+    <style>
+        h3 {
+            font-size: 24px !important;
+        }
+        p{
+            margin-bottom: 28px !important;
+        }
+        .bg-header {
+            --bs-bg-opacity: 1;
+
+            background-image: linear-gradient({{header_color1}},{{header_color2}}) !important;
+        }
+        .bg-footer {
+            --bs-bg-opacity: 1;
+            background-image: linear-gradient({{footer_color1}},{{footer_color2}}) !important;
+        }
+        .header-text-color{
+            color: {{header_text_color}} ;
+        }
+        .footer-text-color{
+            color: {{footer_text_color}} ;
+        }
+        h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+            font-weight: 500 !important;
+        }
+        {{custom_theme}}
+    </style>
+</head>
+<body>
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a style="color: inherit; text-decoration: inherit;" href="{{home_page_link}}">
+            <span class="navbar-brand"><img style="max-height:30px; height: 30px !important; display: {{is_header_log}} " src="{{logo}}" onerror="this.remove()"></span>
+            <span class="navbar-brand header-text-color">{{project_name}}</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="display: {{is_social_header}}">
+                <li class="nav-item"  style="display: {{is_facebook}}"><a class="nav-link header-text-color" target="_blank"  href="{{facebook}}"><i class="icon-social-facebook"></i></a></li>
+                <li class="nav-item"  style="display: {{is_twitter}}"><a class="nav-link header-text-color" target="_blank"  href="{{twitter}}"><i class="icon-social-twitter"></i></a></li>
+                <li class="nav-item" style="display: {{is_instagram}}"><a class="nav-link header-text-color" target="_blank"  href="{{instagram}}"><i class="icon-social-instagram"></i></a></li>
+                <li class="nav-item" style="display: {{is_pinterest}}"><a class="nav-link header-text-color" target="_blank"  href="{{pinterest}}"><i class="icon-social-pinterest"></i></a></li>
+                <li class="nav-item" style="display: {{is_youtube}}"><a class="nav-link header-text-color" target="_blank"  href="{{youtube}}"><i class="icon-social-youtube"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Page Content-->
+<section class="pt-4 article-container">
+    <header class="py-2 border-bottom mb-4" style="display: {{header_html}}">
+        <div class="container ql-editor article-card-text" id="sitewide-header" >
+            {{header_html_content}}
+        </div>
+    </header>
+    <div class="container px-lg-5">
+        <!-- Page Features-->
+        <div class="row gx-lg-5">
+             
+    <!-- Post content-->
+
+     <section class="mb-5 " style="padding-top: 90px;">
+            <div class="container px-5">
+             <header class="mb-4">
+        <!-- Post title-->
+
+                    <h1 class="fw-bolder mb-1 main-heading">Privacy Policy</h1>
+
+                </header>
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 article-card-text">
+                        <p>This Privacy Policy covers the processing of personal data by Nextbidge (collectively called âNextbidgeâ, âweâ, âour '' or âusâ) in this document. We are committed to protecting the privacy of your personal information whilst striving to provide the best user experience.<br>This privacy Policy is for all the web pages coming under https://test.com. <br>We may (including any third-party content, advertising, and analytics providers) automatically collect certain information from your device or web browser when you interact with our website to help us understand how our users use the website (which we will refer to in this data collectively as âUsage Dataâ)<br>We collect Usage Data for a variety of purposes including to diagnose problems with our website, to administer the website, to gather demographic information and to target advertising to you on the website. <br>We may collect Information you provide to us while contacting through email, phone or social media accounts/ pages.(which we will refer to in this data collectively as âPersonal Informationâ)  We may use Personal Information to contact you to answer your queries or send you updates on the website. We always protect your Personal Information and your Personal Information never shared or sold to any third party.<br>As we are upgrading this website on a regular basis and new articles are being added to it, we may change this privacy policy from time to time. Please visit this page to see the updated privacy policy.<br>If you have any comments, concerns or questions, including any requests to exercise your legal rights, you can contact us. </p>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+        </div>
+        <div class="clearfix"></div>
+        <br>
+        <br>
+        <div class="container px-5">
+            <div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container mb-4 ql-editor article-card-text" id="sitewide-footer" style="display:{{footer_html}}">
+        {{footer_html_content}}
+    </div>
+</section>
+<div class="py-5 bg-gray-200 text-muted pre-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-5 mb-lg-0">
+                <div style=" display: {{terms}}" class="fw-bold text-uppercase text-dark mb-3">
+                    <a href="{{terms_link}}">Terms of Use</a>
+                </div>
+
+                <div style=" display: {{policy}}" class="fw-bold text-uppercase text-dark mb-3">
+                    <a href="{{policy_link}}">Privacy Policy</a>
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="mb-0">
+                        <div style="display: {{is_contact_phone_footer}}">
+                            <div style="display: flex; align-items: flex-end">
+                                <i class="fas fa-phone mt-4 fa-2x"></i>
+                                <span class="ms-2">{{contact_phone}}</span>
+                            </div>
+                        </div>
+                        <div style="display: {{is_contact_address_footer}}" >
+                            <div style="display: flex; align-items: flex-end">
+                                <i class="fas fa-home mt-4 fa-2x"></i>
+                                <span class="ms-2">{{contact_address}}</span>
+                            </div>
+                        </div>
+
+                        <div style="display: {{is_contact_email_footer}}">
+                            <div style="display: flex; align-items: flex-end">
+                                <i class="fas fa-envelope mt-4 fa-2x"></i>
+                                <span class="ms-2">{{contact_email}}</span>
+                            </div>
+                        </div >
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-6">
+                <div style="display: flex; flex-direction: column; align-items: flex-end">
+                    <h6 style=" display: {{sitemap}};" class="text-uppercase text-dark mb-3">
+                        <a href="{{sitemap_link}}">Sitemap</a>
+                    </h6>
+
+                    <h6 style=" display: {{contact}}; " class="text-uppercase text-dark mb-3">
+                        <a href="{{contact_link}}">Contact Us!</a>
+                    </h6>
+                </div>
+
+                <div class="card mb-4" style="display: {{is_map_iframe_footer}}">
+                    <!--Google map-->
+                    <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 400px;">
+                        <iframe src="{{contact_map_iframe}}" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer-->
+<footer class="py-5 bg-dark text-center">
+
+    <div class="container mb-4"><p class="m-0 text-center ">
+        <span class="navbar-brand" ><img style="max-height:30px; height: 30px !important; display: {{is_header_log}} " src="{{logo}}" onerror="this.remove()"></span>
+        <span class="navbar-brand">{{project_name}}</span>
+    </p></div>
+    <ul class="list-inline mb-4" style="display: {{is_social_footer}}">
+        <li class="list-inline-item" style="display: {{is_facebook}}">
+            <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href="{{facebook}}"><i class="icon-social-facebook"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: {{is_twitter}}">
+            <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href="{{twitter}}"><i class="icon-social-twitter"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: {{is_instagram}}">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href="{{instagram}}"><i class="icon-social-instagram"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: {{is_pinterest}}">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href="{{pinterest}}"><i class="icon-social-pinterest"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: {{is_youtube}}">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href="{{youtube}}"><i class="icon-social-youtube"></i></a>
+        </li>
+    </ul>
+    <div class="container"><p class="m-0 text-center">Copyright &copy; {{company_name}}. All rights reserved.</p></div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<script>
+    const url = window.location.href;
+    let domain = (new URL(url));
+    let hostname = domain.hostname;
+    let pathname = domain.pathname.split('/');
+    let protocol = domain.protocol;
+    let domain_url =  protocol +'//'+hostname+'/';
+    if(pathname.length > 2){
+        domain_url =  domain_url +pathname.slice(1,pathname.length - 1).join('/')+'/'+document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }else{
+        domain_url =  domain_url +document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }
+    document.querySelectorAll('[rel="canonical"]')[0].setAttribute('href', domain_url);
+</script>
+<script>
+    document.getElementsByTagName('head')[0].innerHTML = document.getElementsByTagName('head')[0].innerHTML.replace('REPLACE_WITH_URL', window.location.href);
+</script></body>
+</html>
